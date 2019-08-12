@@ -1,0 +1,24 @@
+{
+  "name": "01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "gulp": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-convert-encoding": "^1.0.0",
+    "gulp-header": "^2.0.5",
+    "gulp-plumber": "^1.2.0",
+    "gulp-replace": "^1.0.0",
+    "npm-check-updates": "^2.14.2",
+    "process": "^0.11.10",
+    "require-dir": "^1.0.0"
+  }
+}
