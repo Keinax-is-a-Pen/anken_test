@@ -1,0 +1,33 @@
+@import "mixin";
+
+#cmn-header {
+  background: url(/lp/uniform_office/images/mv_bgd.jpg) center / cover no-repeat;
+  padding-top:  38.75%;
+  position: relative;
+  .navigation {
+    background: rgba(255,255,255,0.7);
+    .navigation-inner {
+      max-width: 1060px;
+      @include flex;
+      @include justifyContent(sb);
+      .nav-logo {
+        width: 30%;
+        img { max-width: 100%; }
+      }
+      .nav-menu {
+        
+      }
+    }
+  }
+  h1 {
+    width: 40%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% -50%);
+    img {
+      max-width: 100%;
+      width: 100%;
+    }
+  }
+}

@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+#cmn-header {
+  background: url(/lp/uniform_office/images/mv_bgd.jpg) center/cover no-repeat;
+  padding-top: 38.75%;
+  position: relative;
+}
+
+#cmn-header .navigation {
+  background: rgba(255, 255, 255, 0.7);
+}
+
+#cmn-header .navigation .navigation-inner {
+  max-width: 1060px;
+  display: flex;
+  display: -ms-flex;
+  display: -webkit-flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+#cmn-header .navigation .navigation-inner .nav-logo {
+  width: 30%;
+}
+
+#cmn-header .navigation .navigation-inner .nav-logo img {
+  max-width: 100%;
+}
+
+#cmn-header h1 {
+  width: 40%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50% -50%);
+  transform: translate(-50% -50%);
+}
+
+#cmn-header h1 img {
+  max-width: 100%;
+  width: 100%;
+}
